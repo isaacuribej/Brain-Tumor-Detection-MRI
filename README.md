@@ -47,13 +47,13 @@ unzip brain-mri-images-for-brain-tumor-detection.zip -d data/
 
 ## 📊 Results
 
-First training run — **200 epochs**, Adam (`lr=1e-4`), BCELoss, 80/20 stratified split:
+First training run — **50 epochs**, Adam (`lr=1e-4`), BCELoss, 80/20 stratified split:
 
 | Metric | Value |
 |--------|-------|
 | **Validation Accuracy** | **81.63%** |
-| Macro F1-score | 0.80 |
-| Weighted F1-score | 0.82 |
+| Macro F1-score | 0.75 |
+| Weighted F1-score | 0.76 |
 
 ### Classification Report
 
